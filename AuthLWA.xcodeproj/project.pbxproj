@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003FEB9425B779E100D6C02D /* AWSAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003FEB9325B779E100D6C02D /* AWSAuthCore.framework */; };
+		003FEB9625B779ED00D6C02D /* AWSMobileClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003FEB9525B779ED00D6C02D /* AWSMobileClient.framework */; };
+		003FEB9825B779F700D6C02D /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003FEB9725B779F700D6C02D /* AWSCore.framework */; };
+		5F07708B10584F0BBE9816A2 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 76F40DEEBC354D158A5F1200 /* awsconfiguration.json */; };
+		AAE17C6FFC7F468F8F903C96 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9CB46235B9AF4C809AA993B1 /* amplifyconfiguration.json */; };
+		C7F53DD7EFA69D77BB03DEA5 /* Pods_AuthLWA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC451118AA25E635B058572D /* Pods_AuthLWA.framework */; };
 		F0057FC2218B712F00AAA67A /* LoginWithAmazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0057FC1218B712F00AAA67A /* LoginWithAmazon.framework */; };
 		F0057FC5218B759500AAA67A /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0057FC3218B73C100AAA67A /* SafariServices.framework */; };
 		F0057FC7218B7BDD00AAA67A /* LoginWithAmazonProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0057FC6218B7BDD00AAA67A /* LoginWithAmazonProxy.swift */; };
@@ -19,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		003FEB9325B779E100D6C02D /* AWSAuthCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSAuthCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		003FEB9525B779ED00D6C02D /* AWSMobileClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSMobileClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		003FEB9725B779F700D6C02D /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB07EDF70F42476055C2012 /* Pods-AuthLWA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthLWA.release.xcconfig"; path = "Target Support Files/Pods-AuthLWA/Pods-AuthLWA.release.xcconfig"; sourceTree = "<group>"; };
+		76F40DEEBC354D158A5F1200 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		838C959E5AA4E064018F245A /* Pods-AuthLWA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthLWA.debug.xcconfig"; path = "Target Support Files/Pods-AuthLWA/Pods-AuthLWA.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB46235B9AF4C809AA993B1 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		F0057FC1218B712F00AAA67A /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoginWithAmazon.framework; sourceTree = "<group>"; };
 		F0057FC3218B73C100AAA67A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		F0057FC6218B7BDD00AAA67A /* LoginWithAmazonProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithAmazonProxy.swift; sourceTree = "<group>"; };
@@ -30,6 +43,8 @@
 		F0741A9C218ACBAD0035EBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0741A9E218ACBAD0035EBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0C1AB29218AD4D10075D963 /* btnLWA_gold_209x48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnLWA_gold_209x48@2x.png"; sourceTree = "<group>"; };
+		F47EA2E9C94D4CB49CA2489F /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		FC451118AA25E635B058572D /* Pods_AuthLWA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthLWA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,20 +52,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003FEB9825B779F700D6C02D /* AWSCore.framework in Frameworks */,
+				003FEB9625B779ED00D6C02D /* AWSMobileClient.framework in Frameworks */,
+				003FEB9425B779E100D6C02D /* AWSAuthCore.framework in Frameworks */,
 				F0057FC5218B759500AAA67A /* SafariServices.framework in Frameworks */,
 				F0057FC2218B712F00AAA67A /* LoginWithAmazon.framework in Frameworks */,
+				C7F53DD7EFA69D77BB03DEA5 /* Pods_AuthLWA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00E50A8D2866418937D7ED20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				838C959E5AA4E064018F245A /* Pods-AuthLWA.debug.xcconfig */,
+				4FB07EDF70F42476055C2012 /* Pods-AuthLWA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6FA8D9A28759452DA86FD58A /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				F47EA2E9C94D4CB49CA2489F /* amplifytools.xcconfig */,
+				9CB46235B9AF4C809AA993B1 /* amplifyconfiguration.json */,
+				76F40DEEBC354D158A5F1200 /* awsconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
 		F0741A86218ACBAC0035EBCF = {
 			isa = PBXGroup;
 			children = (
+				6FA8D9A28759452DA86FD58A /* AmplifyConfig */,
 				F0741A91218ACBAC0035EBCF /* AuthLWA */,
 				F0741A90218ACBAC0035EBCF /* Products */,
 				F0C4DB62218AE4B900950053 /* Frameworks */,
+				00E50A8D2866418937D7ED20 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,8 +121,12 @@
 		F0C4DB62218AE4B900950053 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				003FEB9725B779F700D6C02D /* AWSCore.framework */,
+				003FEB9525B779ED00D6C02D /* AWSMobileClient.framework */,
+				003FEB9325B779E100D6C02D /* AWSAuthCore.framework */,
 				F0057FC3218B73C100AAA67A /* SafariServices.framework */,
 				F0057FC1218B712F00AAA67A /* LoginWithAmazon.framework */,
+				FC451118AA25E635B058572D /* Pods_AuthLWA.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -93,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0741AA1218ACBAD0035EBCF /* Build configuration list for PBXNativeTarget "AuthLWA" */;
 			buildPhases = (
+				F1EB6712B9DE9E89DCC20A53 /* [CP] Check Pods Manifest.lock */,
 				F0741A8B218ACBAC0035EBCF /* Sources */,
 				F0741A8C218ACBAC0035EBCF /* Frameworks */,
 				F0741A8D218ACBAC0035EBCF /* Resources */,
+				B9A5BC257AF17C1A17ECF190 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,10 +195,54 @@
 				F0C1AB2A218AD4D10075D963 /* btnLWA_gold_209x48@2x.png in Resources */,
 				F0741A9A218ACBAD0035EBCF /* Assets.xcassets in Resources */,
 				F0741A98218ACBAC0035EBCF /* Main.storyboard in Resources */,
+				AAE17C6FFC7F468F8F903C96 /* amplifyconfiguration.json in Resources */,
+				5F07708B10584F0BBE9816A2 /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9A5BC257AF17C1A17ECF190 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthLWA/Pods-AuthLWA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthLWA/Pods-AuthLWA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuthLWA/Pods-AuthLWA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1EB6712B9DE9E89DCC20A53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthLWA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F0741A8B218ACBAC0035EBCF /* Sources */ = {
@@ -304,6 +395,7 @@
 		};
 		F0741AA2218ACBAD0035EBCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838C959E5AA4E064018F245A /* Pods-AuthLWA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -328,6 +420,7 @@
 		};
 		F0741AA3218ACBAD0035EBCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB07EDF70F42476055C2012 /* Pods-AuthLWA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

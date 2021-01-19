@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-layeriosswiftloginwi-dev-200356-authRole",
+      "UnauthRoleArn": "arn:aws:iam::393624399245:role/amplify-layeriosswiftloginwi-dev-200356-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::393624399245:role/amplify-layeriosswiftloginwi-dev-200356-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-layeriosswiftloginwi-dev-200356-deployment",
+      "UnauthRoleName": "amplify-layeriosswiftloginwi-dev-200356-unauthRole",
+      "StackName": "amplify-layeriosswiftloginwi-dev-200356",
+      "StackId": "arn:aws:cloudformation:eu-west-2:393624399245:stack/amplify-layeriosswiftloginwi-dev-200356/7f98f320-5a91-11eb-b571-06527e22afd6",
+      "AmplifyAppId": "dorkmw6h8s914"
+    },
+    "categories": {
+      "auth": {
+        "layeriosswiftloginwi70f927f470f927f4": {}
+      }
+    }
+  }
+}
